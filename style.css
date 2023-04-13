@@ -1,0 +1,203 @@
+body {
+    margin: 0em;
+    background-color: rgb(209, 194, 194);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(71, 0, 101);
+
+}
+h2{
+    color: rgb(94, 8, 176);
+}
+h3 {
+    color: rgb(142, 66, 213);
+}
+#imagem_nome {
+  text-align: center;
+}
+#imagem_perfil {
+    width: 13em;
+    border-radius: 10%;
+}
+#nome_sobrenome{
+    margin-left: 0.4em;
+    font-weight: 700;
+    font-size: 2em;
+}
+.titulos_topicos {
+    margin: 0.5em;
+    padding: 0.3em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2em;
+}
+#resumo{
+    border: 0.2em solid blueviolet; 
+    margin-bottom: 5em;
+}
+#titulo_resumo{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+#texto_resumo {
+    text-align: center;
+    text-align: justify;
+    color: rgb(71, 0, 101);
+}
+#imagem_nome {
+    margin: inherit;
+    margin-bottom: 4em;
+}
+.corpo{
+  margin-left: 2em;
+}
+#habilidades{
+  margin: 0em;
+  color: rgb(71, 0, 101);
+}
+table {
+    border:  0.2em double blueviolet; ;
+    width: min-content;
+}
+table > thead > tr > th {     /*Um exemplo de seletor*/
+    color: rgb(71, 0, 101);
+    background-color: rgb(142, 66, 213);
+    color: rgb(243, 233, 248);
+    padding: 0.2em;
+}
+td {
+  color: rgb(71, 0, 101);
+  padding: 0.2em;
+}
+a {
+  text-decoration: none;
+}
+#botoes{
+  margin-left: 1em;
+}
+.botao{
+  color: rgb(71, 0, 101);
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: rgb(233, 218, 236);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.2em;
+}
+#form {
+  color: rgb(71, 0, 101);
+}
+.input{
+  margin: 0.2em;
+}
+form > button {
+  font-size: 0.6em;
+}
+footer{
+  padding-left: 0.8em;
+  padding-bottom: 0.5em;
+  margin: 0em;
+  background-color: rgb(132, 61, 198);
+}
+footer > h3 {
+  color: rgb(205, 164, 244);
+  margin: 0.5em;
+  margin-bottom: 0em;
+  padding: 0.3em;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/*--------------RESPONSIVIDADE---------------------------*/  
+
+@media screen and (max-width: 1400px) and (min-width: 995px) {
+    body {
+    font-size: 1.2em;
+    }
+    
+    #resumo {
+      margin-left: 10em;
+      margin-right: 10em;
+    }
+
+    #texto_resumo {
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 994px) and (min-width: 705px) {
+    body {
+    font-size: 1.2em;
+    }
+    
+    #resumo {
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+
+    #texto_resumo {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+
+  @media screen and (max-width: 704px) and (min-width: 500px) {
+    body {
+    font-size: 1em;
+    }
+    
+    #resumo {
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+
+    #texto_resumo {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+
+  @media screen and (max-width: 499px) and (min-width: 380px) {
+    body {
+    font-size: 0.9em;
+    }
+    
+    #resumo {
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    #texto_resumo {
+      margin-left: 0.7em;
+      margin-right: 0.7em;
+    }
+  }
+
+  @media screen and (max-width: 379px) and (min-width: 100px) {
+    body {
+    font-size: 0.9em;
+    }
+    
+    #resumo {
+      font-size: 0.8em;
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+    #texto_resumo {
+      margin-left: 0.7em;
+      margin-right: 0.7em;
+    }
+    table{
+        font-size: 0.8em;
+    }
+  }
